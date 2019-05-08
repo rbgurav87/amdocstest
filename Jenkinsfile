@@ -35,6 +35,7 @@ pipeline{
                     bat "docker tag amdocstest " + registry + ":$BUILD_NUMBER"
                     bat "docker tag amdocstest " + registry + ":latest"
                     bat "docker push "+ registry + ":$BUILD_NUMBER"
+					bat "docker push "+ registry + ":latest"
                        }
                 }
             }

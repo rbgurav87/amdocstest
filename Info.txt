@@ -5,6 +5,7 @@ this pipeline will do below steps
 3) create docker image and push to the docker hub
 4) deploy application using kubernetes
 
+please note : you have to copy the docker file in git at the root level (where the pox.xml located)
 
 Dockerfile is used to create docker image
 
