@@ -1,0 +1,17 @@
+Jenkinsfile is used to create jenkins pipeline
+this pipeline will do below steps
+1) get the latest code from git repository
+2) build the maven application
+3) create docker image and push to the docker hub
+4) deploy application using kubernetes
+
+
+Dockerfile is used to create docker image
+
+
+amdocstest-service.yml file to deploy application usig kubernetes
+
+
+in above steps step 1 and 2 are continuous Integration steps
+and step 3 and 4 are continuous Deployment steps 
+ 

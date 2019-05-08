@@ -1,0 +1,8 @@
+minikube start --cpus 2 --memory 4096
+
+kubectl apply -f amdocstest-service.yaml
+
+curl $(minikube service amdocstest --url)/health
+{"status":"UP"}
+
+ minikube service amdocstest

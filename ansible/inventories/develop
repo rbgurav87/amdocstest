@@ -1,0 +1,8 @@
+[docker]
+10.10.10.1
+10.10.10.5
+10.10.10.8
+[develop:children]
+docker
+[develop:vars]
+ansible_ssh_private_key_file=__YOUR_SSH_KEY_FILE_PATH__
